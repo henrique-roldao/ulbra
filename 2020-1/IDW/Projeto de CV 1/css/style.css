@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+/* Estilo da area de navegação */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111111;
+  overflow-x: hidden;
+}
+
+/* Links de navegação */
+.sidenav a {
+  font-size: 18px;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Mudar cor ao passar o mouse */
+.sidenav a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+/* Estilo da Lista de estudos */
+.estudo {
+  margin-top: 50px;
+  padding: 16px;
+  color: white;
+} 
+
+.estudo h2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.estudo li {
+  font-size: 16px;
+}
+/* Estilo do conteudo */
+.content {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Estilo da Lista Ordenal */
+.ordenado {
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textosOrd {
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Estilo do Nome & Cargo atual */
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.cargo {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.perfil {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  margin-right: 130px;
+}
+
+/* Estilo da área de contato */
+.contato {
+  margin-top: 200px;
+  color: white;
+  padding: 16px;
+}
+
+.titulo-contato {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.local {
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.fone {
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.email {
+  font-size: 13px;
+}
