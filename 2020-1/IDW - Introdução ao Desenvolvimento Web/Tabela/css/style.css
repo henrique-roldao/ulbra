@@ -1,0 +1,145 @@
+* {
+    margin: 0 auto; 
+}
+
+body{
+    background-color: #e2e2e2;
+}
+
+.divTudo{ 
+    font-family: arial,sans-serif;
+}
+
+.divLinha{
+	clear: both; 
+}
+
+.h2TituloSessao{
+    font-size: 20px;
+}
+
+.informacao {
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.alemanha {
+    width: 30px;
+    height: 20px;
+}
+
+.titulo-img {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+}
+
+.upper {
+    text-align: left;
+}
+
+/* estilos do cabeçalho geral  */
+#divCabecalho{
+    background-color: black;
+    min-height: 100px;
+    padding: 30px 50px 10px 50px;
+    margin-bottom: 40px;
+}
+#h1TituloCabecalho{
+    color: #ffffff;
+    float: left;
+    min-width: 50%;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* estilos classificação */
+#divClassificacao{
+    width: 50%;
+}
+
+#tableClassificacao{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.logo-times {
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+.pais {
+    width: 30px;
+    height: 20px;
+}
+
+.h3TitutoGrupo{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* estilos goleadores*/
+#divGoleadores{
+    width: 50%;
+}
+
+#tableGoleadores{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* estilos jogos*/
+#divJogos{
+    width: 50%;
+}
+
+#tableJogos{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.upper {
+    margin-top: 50px;
+    width: 50%;
+    background: white;
+}
+
+.upper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upper h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.partidas {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.premiacao {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.logo-player {
+    width: 100px;
+    height: 100px;
+}
