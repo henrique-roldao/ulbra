@@ -1,0 +1,49 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  border: 1px solid black;
+  background: #E5E7EA;
+  text-align: center;
+}
+
+header img {
+  padding: 30px 0;
+}
+
+section {
+  border: 1px solid black;
+  border-top: none;
+  float: left;
+  width: 70%;
+}
+
+.noticias {
+  width: 60%;
+  text-align: left;
+  float: left;
+}
+
+.noticias p {
+  margin: 50px 20px 0 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.imagens img {
+  margin: 20px 0 0 0;
+  width: 300px;
+  height: 180px;
+}
+
+sidebar {
+  border: 1px solid black;
+  border-left: none;
+  border-top: none;
+  float: left;
+}
