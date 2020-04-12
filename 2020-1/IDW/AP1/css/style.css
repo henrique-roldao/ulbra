@@ -20,30 +20,70 @@ section {
   border: 1px solid black;
   border-top: none;
   float: left;
-  width: 70%;
+  width: 60%;
 }
 
 .noticias {
-  width: 60%;
-  text-align: left;
   float: left;
+  text-align: left;
+  width: 60%;
 }
 
 .noticias p {
-  margin: 50px 20px 0 20px;
   font-weight: bold;
   font-size: 25px;
+  margin: 50px 20px 0 20px;
 }
 
 .imagens img {
-  margin: 20px 0 0 0;
-  width: 300px;
   height: 180px;
+  margin: 50px 0 0 0;
+  width: 300px;
 }
 
 sidebar {
   border: 1px solid black;
   border-left: none;
   border-top: none;
+  float: right;
+}
+
+.jogador {
   float: left;
+}
+
+.info-jogador {
+  float: right;
+}
+
+.info-jogador h4 {
+  font-weight: bold;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.info-jogador p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.info-jogador p em {
+  color: #08A500;
+}
+
+.naturalidade {
+  width: 30px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.time {
+  width: 30px;
+  height: 30px;
+}
+        
+.player-profile {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
 }
