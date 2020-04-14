@@ -23,6 +23,13 @@ section {
   width: 60%;
 }
 
+sidebar {
+  border: 1px solid black;
+  border-left: none;
+  border-top: none;
+  float: left;
+}
+
 .noticias {
   float: left;
   text-align: left;
@@ -41,19 +48,12 @@ section {
   width: 300px;
 }
 
-sidebar {
-  border: 1px solid black;
-  border-left: none;
-  border-top: none;
-  float: right;
-}
-
 .jogador {
   float: left;
 }
 
 .info-jogador {
-  float: right;
+  float: left;
 }
 
 .info-jogador h4 {
@@ -83,7 +83,41 @@ sidebar {
 }
         
 .player-profile {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 200px;
   height: 200px;
 }
+
+footer {
+  background: #E5E7EA;
+  border: 1px solid black;
+  border-top: none;
+  clear: both;
+  width: 99.7%;
+}
+
+footer article img {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 173px;
+  height: 60px;
+}
+
+footer p {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.contato {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.contato img {
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
