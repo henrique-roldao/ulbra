@@ -1,0 +1,209 @@
+body {
+  width: 900px;
+  margin: auto;
+  font-family: Montserrat;
+}
+
+/*Linhas de separação */
+.linha {
+  border-bottom: 3px solid #3b5998;
+  padding-top: 10px;
+  width: 85%;
+  float: right;
+}
+
+header {
+  color: white;
+  width: 90%;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #3b5998;
+  border-radius: 10px;
+}
+
+.perfil {
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 60px;
+  margin-top: 10px;
+  width: 20%;
+  float: left;
+}
+
+.perfil img {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.dados-pessoais {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  margin-left: 28%;
+  width: 55%;
+}
+
+.dados-pessoais h2 {
+  display: inline-block;
+  font-weight: bold;
+  margin: 5px auto;
+  color: #3b5998;
+  font-size: 20px;
+}
+
+.dados-pessoais p{
+  display: inline-block;
+  width: auto;
+  margin: 5px auto;
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Objetivos */
+.objetivos h2 {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.objetivos p {
+  margin-top: 20px;
+  font-size: 90%;
+  margin-bottom: 50px;
+  text-indent: 0.5em;
+  font-weight: 500;
+}
+
+/* Formação */
+.formacao p {
+  font-size: 90%;
+  margin: 0px;
+  font-weight: 500;
+  margin-bottom: 40px !important;
+}
+
+.formacao h2 {
+  display: inline;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.formacao h3 {
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  font-size: 100%;
+}
+
+/* Skills */
+
+.pontos {
+  width: 62;
+  display: inline-block;
+}
+
+.pontos div {
+  width: 12px;
+  height: 12px;
+  background-color: #3b5998;
+  border-radius: 90%;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-top: 1px;
+  display: inline-block;
+}
+
+.pontos #sem-pontos {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 90%;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-top: 1px;
+  display: inline-block;
+}
+
+.habilidades {
+  width: 44%;
+  padding-right: 3%;
+  border-right: 3px solid #3b5998;
+  float: left;
+  margin: 0 0;
+}
+
+.habilidades h2 {
+  font-weight: bold;
+  border-bottom: 2px solid #3b5998;
+  font-size: 20px;
+  margin: 18px 0px;
+}
+
+.habilidades p {
+  margin-right: 5px;
+  width: 35%;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px auto;
+}
+
+.idiomas p {
+  display: block !important;
+  margin: 5px !important;
+  font-weight: normal !important;
+  font-size: 15px !important;
+  width: 100%;
+}
+
+/* Experiências */
+
+.article-experiencia {
+  width: 50%;
+  float: right;
+  margin: 0px;
+  height: 611px;
+}
+
+.article-experiencia h2 {
+  font-weight: bold;
+  border-bottom: 2px solid #3b5998;
+  width: 100%;
+  text-indent: 0.5em;
+  margin-top: 15px;
+}
+
+.div-experiencia h3 {
+  text-indent: 0.5em;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.div-experiencia p {
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 35px;
+  margin-top: 0px;
+  text-indent: 0.5em;
+  font-weight: 500;
+}
+
+.cargos{
+  font-size: 125% !important;
+  display: inline-block;
+  margin: 0px 7px !important;
+  padding: 0px !important;
+  font-style: italic;
+}
